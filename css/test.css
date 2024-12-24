@@ -1,0 +1,79 @@
+form fieldset {
+    border: none;
+}
+
+form legend,
+form label {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+form input[type="text"] {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 230);
+    background-color: rgb(252, 79, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button[type="submit"],
+#reset-button {
+    background-color: rgba(47, 47, 47, 0.8);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+form button[type="submit"]:hover,
+#reset-button:hover {
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0 0 10px rgba(252, 252, 252, 0.5);
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.button-result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.result-section {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#test-result {
+    color: white;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}

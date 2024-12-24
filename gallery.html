@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Галерея</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="header-left">
+                <p>Лунтик и его друзья</p>
+            </div>
+            <div class="header-right">
+                <a href="index.html">Описание</a>
+                <a href="Slovar.html">Словарь</a>
+                <a href="test.html">Тест</a>
+                <a href="gallery.html" class="active">Галерея</a>
+                <a href="profile.html" id="username">Личный кабинет</a>
+                <div class="logout-section" id="logout-section">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 class="top-pagename">Галерея</h1>
+        <section class="central-content">
+            <div class="slider-container">
+                <div class="slide active-slide">
+                    <img src="images/index/1.png" alt="">
+                    <p>Лунтик</p>
+                </div>
+                <div class="slide">
+                    <img src="images/index/2.jpg" alt="City_of_Tears">
+                    <p>Лунтик в шоке </p>
+                </div>
+                <div class="slide">
+                    <img src="images/index/3.webp" alt="colosseum.jpg">
+                    <p> Кузя и лупа </p>
+                </div>
+                <div class="slide">
+                    <img src="images/index/4.jfif" alt="Crossroads_Entrance">
+                    <p>Актерский состав </p>
+                </div>
+                <div class="slide">
+                    <img src="images/index/5.webp" alt="dirtmouth.jpg">
+                    <p>Гусеницы  </p>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="slider-controls">
+                    <button id="prevSlide">❮</button>
+                    <button id="nextSlide">❯</button>
+                </div>
+                <div class="slider-info" id="infoText">
+                    1 из 3
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="socials-container">
+            <div class="contact-info">
+                <p>&copy; 2024 Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>

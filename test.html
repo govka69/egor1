@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+    <title>Тест</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="header-left">
+                <p>Лунтик и его друзья</p>
+            </div>
+            <div class="header-right">
+                <a href="index.html">Описание</a>
+                <a href="Slovar.html">Словрь</a>
+                <a href="test.html" class="active">Тест</a>
+                <a href="gallery.html">Галерея</a>
+                <a href="profile.html" id="username">Личный кабинет</a>
+                <div class="logout-section" id="logout-section">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 class="top-pagename">Тест</h1>
+        <section class="central-content">
+            <h2>Тест по Лунтику</h2>
+
+            <form id="quizForm" name="quizForm" novalidate>
+                <fieldset>
+                    <label for="q1">1. В Как зовут Лунтика?</label>
+                    <input type="text" id="q1" name="q1">
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <label for="q2">2. Кто родители лунтика? </label>
+                    <input type="text" id="q2" name="q2">
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>3. откуда прилетел лунтик, </legend>
+                    <label><input type="radio" name="q3" value="С луны"> С луны </label>
+                    <label><input type="radio" name="q3" value="С земли"> С земли </label>
+                    <label><input type="radio" name="q3" value="С венеры"> С венеры</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>4.Где находится лунтик?</legend>
+                    <label><input type="radio" name="q4" value="Москва"> Москва</label>
+                    <label><input type="radio" name="q4" value="Лунтания"> Лунтания</label>
+                    <label><input type="radio" name="q4" value="Челябинск"> Челябинск</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>5. Сколько персонажей в мультфильме?</legend>
+                    <label><input type="radio" name="q5" value="10"> 10</label>
+                    <label><input type="radio" name="q5" value="2"> 2</label>
+                    <label><input type="radio" name="q5" value="21"> 21</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>6. Кто пакостит Лунтику?</legend>
+                    <label><input type="radio" name="q6" value="Баба капа"> Баба капа</label>
+                    <label><input type="radio" name="q6" value="Вупсень и пупсень"> Вупсень и пупсень</label>
+                    <label><input type="radio" name="q6" value="Паук шнюк"> Паук шнюк</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <div class="result-section">
+                    <span id="test-result"></span>
+                </div>
+
+                <button type="submit" id="submit-button">Ответить</button>
+            </form>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="socials-container">
+            <div class="contact-info">
+                               <p>&copy; 2024 . Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/test.js"></script>
+</body>
+
+</html>
